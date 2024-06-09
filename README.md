@@ -5,12 +5,15 @@ Projeto de uma calculadora básica, criada usando a biblioteca Tkinter do Python
 
 - Operações básicas: adição, subtração, multiplicação, divisão e potenciação.
 - Interface gráfica de usuário (GUI) intuitiva.
-- Exibição clara de operações e resultados.
+- Exibição clara de operações e resultados.  
 
 ## Captura de Tela
 
 ![print do projeto final](assets/projeto%20final.png)
 
+
+## Wireframe
+**Link:** [Clique Aqui](https://www.figma.com/design/LZgdnMUKYV3CCIbbTjbihN/Projeto-Wireframe-Calculadora?node-id=104-67&t=HIOA9LXcpOVDTSt3-1)  
 
 ## Vídeo Demo
 
