@@ -28,7 +28,7 @@ def entrada_valores(tecla):
     global todos_valores, ponto_usado
 
     if tecla.isdigit():
-        # Evitar múltiplos zeros à esquerda
+
         if todos_valores == "0":
             todos_valores = tecla
         else:
@@ -78,10 +78,10 @@ app_label.place(x=0, y=0)
 
 fonte_Ivy = font.Font(family="Ivy", size=13, weight="bold")
 
-b_1 = Button(frame_corpo, text="C", width=11, height=2, bg=cor4, fg=cor1, font=fonte_Ivy, relief=RAISED,
+b_1 = Button(frame_corpo, text="C", width=11, height=2, bg=cor5, fg=cor1, font=fonte_Ivy, relief=RAISED,
              overrelief=RIDGE, command=limpar_tela)
 b_1.place(x=0, y=0)
-b_2 = Button(frame_corpo, text="<--", width=5, height=2, bg=cor4, fg=cor1, font=fonte_Ivy, relief=RAISED,
+b_2 = Button(frame_corpo, text="<--", width=5, height=2, bg=cor5, fg=cor1, font=fonte_Ivy, relief=RAISED,
              overrelief=RIDGE, command=lambda: entrada_valores('BackSpace'))
 b_2.place(x=118, y=0)
 b_3 = Button(frame_corpo, text="/", width=5, height=2, bg=cor5, fg=cor2, font=fonte_Ivy, relief=RAISED,
@@ -131,7 +131,7 @@ b_16.place(x=0, y=208)
 b_17 = Button(frame_corpo, text=".", width=5, height=2, bg=cor4, fg=cor1, font=fonte_Ivy, relief=RAISED,
               overrelief=RIDGE, command=lambda: entrada_valores('.'))
 b_17.place(x=59, y=208)
-b_18 = Button(frame_corpo, text="^", width=5, height=2, bg=cor4, fg=cor1, font=fonte_Ivy, relief=RAISED,
+b_18 = Button(frame_corpo, text="^", width=5, height=2, bg=cor5, fg=cor2, font=fonte_Ivy, relief=RAISED,
               overrelief=RIDGE, command=lambda: entrada_valores('**'))
 b_18.place(x=118, y=208)
 b_19 = Button(frame_corpo, text="=", width=5, height=2, bg=cor5, fg=cor2, font=fonte_Ivy, relief=RAISED,
