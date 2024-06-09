@@ -7,6 +7,9 @@ Projeto de uma calculadora básica, criada usando a biblioteca Tkinter do Python
 - Interface gráfica de usuário (GUI) intuitiva.
 - Exibição clara de operações e resultados.
 
+## Wireframe
+**Link:** [Clique Aqui](https://www.figma.com/design/LZgdnMUKYV3CCIbbTjbihN/Projeto-Wireframe-Calculadora?node-id=104-67&t=HIOA9LXcpOVDTSt3-1)  
+
 ## Capturas de Tela
 
 ## Vídeo Demo
