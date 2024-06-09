@@ -7,7 +7,10 @@ Projeto de uma calculadora básica, criada usando a biblioteca Tkinter do Python
 - Interface gráfica de usuário (GUI) intuitiva.
 - Exibição clara de operações e resultados.
 
-## Capturas de Tela
+## Captura de Tela
+
+![print do projeto final](assets/projeto%20final.png)
+
 
 ## Vídeo Demo
 
